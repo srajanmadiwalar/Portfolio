@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Srajan N Madiwalar, final-year Computer Science Engineering student.">
+  <title>Srajan N Madiwalar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Decorative background shapes -->
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+
+  <!-- Fixed site navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Srajan N Madiwalar home">
+        <span class="brand-mark">S</span>
+        <span>Srajan</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / About section -->
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Based in Bangalore, India</p>
+        <h1>Hi, I'm <span>Srajan.</span><br>I build thoughtful digital experiences.</h1>
+        <p class="hero-description">A final-year Computer Science Engineering student with a growing focus on web development, AI-assisted development, and clean, intuitive UI/UX.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="quick-facts" aria-label="At a glance">
+          <div><strong>Final-year</strong><span>CSE student</span></div>
+          <div><strong>Bangalore</strong><span>Karnataka, India</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Developer illustration">
+        <div class="orbit orbit-large"></div>
+        <div class="orbit orbit-small"></div>
+        <div class="profile-card">
+          <div class="profile-topline"><span></span><span></span><span></span></div>
+          <div class="code-window">
+            <p><span class="code-key">const</span> developer = {</p>
+            <p class="code-indent">name: <span class="code-value">'Srajan'</span>,</p>
+            <p class="code-indent">curious: <span class="code-key">true</span>,</p>
+            <p class="code-indent">building: <span class="code-value">'the future'</span></p>
+            <p>};</p>
+          </div>
+          <div class="profile-footer"><span class="status-dot"></span> Open to opportunities</div>
+        </div>
+        <div class="floating-badge badge-code">&lt;/&gt;</div>
+        <div class="floating-badge badge-ai">AI</div>
+      </div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="container about-content reveal">
+        <p class="section-label">01 / About me</p>
+        <div>
+          <h2>Curious by nature.<br>Deliberate by design.</h2>
+          <p>I enjoy turning ideas into useful, approachable experiences. Whether I am building for the web, experimenting with intelligent interfaces, or refining an interaction, I care about technology that feels clear and human.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section container" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-label">02 / Skills</p>
+        <h2>Tools I use to bring ideas to life.</h2>
+        <p>A practical toolkit that is always expanding through projects and experimentation.</p>
+      </div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><span class="skill-icon skill-html">&lt;&gt;</span><h3>HTML</h3><p>Semantic structure</p></article>
+        <article class="skill-card"><span class="skill-icon skill-css">#</span><h3>CSS</h3><p>Responsive styling</p></article>
+        <article class="skill-card"><span class="skill-icon skill-js">JS</span><h3>JavaScript</h3><p>Interactive web</p></article>
+        <article class="skill-card"><span class="skill-icon skill-python">Py</span><h3>Python</h3><p>Problem solving</p></article>
+        <article class="skill-card"><span class="skill-icon skill-mysql">DB</span><h3>MySQL</h3><p>Data management</p></article>
+        <article class="skill-card"><span class="skill-icon skill-github">GH</span><h3>GitHub</h3><p>Version control</p></article>
+        <article class="skill-card"><span class="skill-icon skill-vscode">⌘</span><h3>VS Code</h3><p>Development flow</p></article>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading reveal">
+          <p class="section-label">03 / Selected projects</p>
+          <h2>Things I've been building.</h2>
+          <p>Exploring technology through meaningful, real-world problem spaces.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-medical reveal">
+            <div class="project-visual medical-visual" aria-hidden="true">
+              <div class="medical-screen">
+                <div class="screen-bar"></div>
+                <div class="gesture-hand">☝</div>
+                <span class="gesture-ring ring-one"></span><span class="gesture-ring ring-two"></span>
+                <div class="screen-lines"><i></i><i></i><i></i></div>
+              </div>
+              <span class="visual-label">GESTURE + VOICE</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>01</span><span>AI · HCI</span></div>
+              <h3>AI-Powered Multimodal Touchless Interaction System</h3>
+              <p>A touchless human-computer interaction system designed for sterile medical environments. It combines gesture and voice input with intent prediction to reduce false-positive gestures.</p>
+              <div class="project-footer">
+                <div class="project-tags"><span>Computer Vision</span><span>Voice Input</span></div>
+                <a href="https://github.com/srajanmadiwalar" class="icon-link" target="_blank" rel="noopener noreferrer" aria-label="View Srajan's GitHub profile" title="View GitHub profile">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-3 18.51c.48.09.65-.21.65-.46v-1.83c-2.65.58-3.21-1.12-3.21-1.12-.43-1.1-1.06-1.4-1.06-1.4-.87-.59.07-.58.07-.58.96.07 1.47.99 1.47.99.86 1.46 2.25 1.04 2.8.8.09-.62.34-1.04.62-1.28-2.12-.24-4.35-1.06-4.35-4.72 0-1.04.37-1.9.98-2.57-.1-.24-.43-1.21.09-2.53 0 0 .8-.26 2.61.98A9.1 9.1 0 0 1 12 7.43a9.1 9.1 0 0 1 2.38.32c1.81-1.24 2.61-.98 2.61-.98.52 1.32.19 2.29.1 2.53.61.67.98 1.53.98 2.57 0 3.67-2.24 4.48-4.37 4.71.35.3.65.87.65 1.75v2.59c0 .25.17.55.66.46A9.5 9.5 0 0 0 12 2.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-movie reveal">
+            <div class="project-visual movie-visual" aria-hidden="true">
+              <div class="movie-card-mini movie-one"></div><div class="movie-card-mini movie-two"></div><div class="movie-card-mini movie-three"></div>
+              <div class="recommendation-panel"><span>FOR YOU</span><i></i><i></i><i></i></div>
+              <div class="play-button">▶</div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>02</span><span>PYTHON · ML</span></div>
+              <h3>Movie Recommendation System</h3>
+              <p>A Python-based recommendation engine that uses Pandas, NumPy, and Scikit-learn to surface relevant movies through content-based and collaborative filtering.</p>
+              <div class="project-footer">
+                <div class="project-tags"><span>Pandas</span><span>Scikit-learn</span></div>
+                <a href="https://github.com/srajanmadiwalar" class="icon-link" target="_blank" rel="noopener noreferrer" aria-label="View Srajan's GitHub profile" title="View GitHub profile">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-3 18.51c.48.09.65-.21.65-.46v-1.83c-2.65.58-3.21-1.12-3.21-1.12-.43-1.1-1.06-1.4-1.06-1.4-.87-.59.07-.58.07-.58.96.07 1.47.99 1.47.99.86 1.46 2.25 1.04 2.8.8.09-.62.34-1.04.62-1.28-2.12-.24-4.35-1.06-4.35-4.72 0-1.04.37-1.9.98-2.57-.1-.24-.43-1.21.09-2.53 0 0 .8-.26 2.61.98A9.1 9.1 0 0 1 12 7.43a9.1 9.1 0 0 1 2.38.32c1.81-1.24 2.61-.98 2.61-.98.52 1.32.19 2.29.1 2.53.61.67.98 1.53.98 2.57 0 3.67-2.24 4.48-4.37 4.71.35.3.65.87.65 1.75v2.59c0 .25.17.55.66.46A9.5 9.5 0 0 0 12 2.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="section-label">04 / Contact</p>
+          <h2>Let's make something<br><em>meaningful.</em></h2>
+          <p>Have an opportunity, project idea, or just want to connect? My inbox is always open.</p>
+          <a class="email-link" href="mailto:srujanmadiwalar@gmail.com">srujanmadiwalar@gmail.com <span aria-hidden="true">↗</span></a>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/srajanmadiwalar" target="_blank" rel="noopener noreferrer" aria-label="Visit Srajan's GitHub profile" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-3 18.51c.48.09.65-.21.65-.46v-1.83c-2.65.58-3.21-1.12-3.21-1.12-.43-1.1-1.06-1.4-1.06-1.4-.87-.59.07-.58.07-.58.96.07 1.47.99 1.47.99.86 1.46 2.25 1.04 2.8.8.09-.62.34-1.04.62-1.28-2.12-.24-4.35-1.06-4.35-4.72 0-1.04.37-1.9.98-2.57-.1-.24-.43-1.21.09-2.53 0 0 .8-.26 2.61.98A9.1 9.1 0 0 1 12 7.43a9.1 9.1 0 0 1 2.38.32c1.81-1.24 2.61-.98 2.61-.98.52 1.32.19 2.29.1 2.53.61.67.98 1.53.98 2.57 0 3.67-2.24 4.48-4.37 4.71.35.3.65.87.65 1.75v2.59c0 .25.17.55.66.46A9.5 9.5 0 0 0 12 2.5Z"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn (link coming soon)" title="LinkedIn link coming soon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.05 3.5a1.56 1.56 0 1 0 0 3.12 1.56 1.56 0 0 0 0-3.12ZM3.7 8.1h2.7v8.4H3.7V8.1Zm4.4 0h2.58v1.15h.04c.36-.68 1.24-1.4 2.56-1.4 2.74 0 3.25 1.8 3.25 4.15v4.5h-2.7v-3.99c0-.95-.02-2.17-1.32-2.17-1.33 0-1.54 1.03-1.54 2.1v4.06h-2.7V8.1Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Smith" required></div>
+            <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required></div>
+          </div>
+          <div class="form-field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required></div>
+          <div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea></div>
+          <button class="button button-primary submit-button" type="submit">Send message <span aria-hidden="true">→</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container"><span>© <span id="year"></span> Srajan N Madiwalar</span><span>Designed &amp; built with care.</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
